@@ -1,4 +1,4 @@
-package com.qiwu.test.widget.emoji
+package com.qiwu.lib.widget.emoji
 
 import android.content.Context
 import android.util.Log

@@ -1,11 +1,11 @@
 {
-  "name": "MyReactNativeApp",
+  "name": "TestReactSupportEmojiApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "yarn react-native start",
     "bundle-ios": "react-native bundle --entry-file index.js --bundle-output ./ios/main.jsbundle --platform ios --assets-dest ./ios --dev false",
-    "bundle-android": "react-native bundle --entry-file index.js --bundle-output app/src/main/assets/index.android.bundle --platform android --assets-dest android/app/src/main/res --dev false"
+    "bundle-android": "react-native bundle --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --platform android --assets-dest android/app/src/main/res --dev false"
   },
   "dependencies": {
     "@react-native-community/cli": "^4.12.0",

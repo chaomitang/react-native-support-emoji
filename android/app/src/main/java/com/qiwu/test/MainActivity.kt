@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mReactRootView = ReactRootView(this)
-        mReactRootView?.startReactApplication(ThisApp.sReactInstanceManager, "MyReactNativeApp", null);
+        mReactRootView?.startReactApplication(ThisApp.sReactInstanceManager, "TestReactSupportEmojiApp", null)
 
         setContentView(mReactRootView)
     }

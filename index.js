@@ -7,7 +7,7 @@ import {
   requireNativeComponent
 } from 'react-native';
 
-var SZEmojiTextView = requireNativeComponent('SZEmojiText');
+var SZEmojiTextView = requireNativeComponent('EmojiText');
 
 class HelloWorld extends React.Component {
   render() {
@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent(
-  'MyReactNativeApp',
+  'TestReactSupportEmojiApp',
   () => HelloWorld
 );
