@@ -2,15 +2,15 @@
 
 # Use like this below
 ```
-var SZEmojiTextView = requireNativeComponent('EmojiText');
+var EmojiTextView = requireNativeComponent('EmojiText');
 
 class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <SZEmojiTextView style={styles.hello} >
+        <EmojiTextView style={styles.hello} >
           <Text >Hello, World💘👪👿🧗</Text>
-        </SZEmojiTextView>
+        </EmojiTextView>
       </View>
     );
   }
